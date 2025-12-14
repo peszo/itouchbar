@@ -3,8 +3,9 @@
   "displayName": "iTouchbar",
   "description": "Shortcuts for Macbook Pro touchbar",
   "publisher": "peszo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/peszo/itouchbar",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.107.0"
   },
@@ -48,6 +49,11 @@
 				"command": "editor.action.outdentLines",
         "group": "d@1", 
 				"title": "←☰"
+			},
+      {
+				"command": "workbench.action.toggleAuxiliaryBar",
+        "group": "e@1", 
+				"title": "◨"
 			}
     ],
     "menus": {
@@ -71,6 +77,10 @@
         {
 					"command": "editor.action.outdentLines",
 					"group": "d@1" 
+				},
+        {
+					"command": "workbench.action.toggleAuxiliaryBar",
+					"group": "e@1" 
 				}
       ]
 		}
