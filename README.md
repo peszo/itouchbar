@@ -1,10 +1,10 @@
-# itouchbar README
+# iTouchbar README
 
-This is the README for extension "itouchbar". This add basic buttons to tocuhbar on Macbook Pro notebooks. See image below
+This is the README for extension "iTouchbar". This add basic buttons to touchbar on Macbook Pro notebooks in VS Code. See image below..
 
 ## Features
 
-This extension add a shortcut button to macbook pro touchbar in vscode:
+This extension add a shortcut buttons to macbook pro touchbar in VS Code:
 
 1. Left sidebar togle
 2. Toggle workbench (terminal)
@@ -12,11 +12,11 @@ This extension add a shortcut button to macbook pro touchbar in vscode:
 4. Block comment
 5. Outdent lines
 
-[Touchbar view ](https://github.com/peszo/itouchbar/blob/main/images/iTouchbar-2025.png)
+![Touchbar view](https://github.com/peszo/itouchbar/blob/main/images/iTouchbar-2025.png)
 
 ## Requirements
 
-Macbook Pro with touchbar. Additoonally need to hide vscode default shortcuts from touchbar.
+Macbook Pro with touchbar. Additionally need to hide VS Code default shortcuts in touchbar.
 
 ## Release Notes
 
