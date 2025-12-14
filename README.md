@@ -12,7 +12,7 @@ This extension add a shortcut button to macbook pro touchbar in vscode:
 4. Block comment
 5. Outdent lines
 
-[Touchbar view ](images/iTouchbar-0-0-1.png)
+[Touchbar view ](https://github.com/peszo/itouchbar/blob/main/images/iTouchbar-2025.png)
 
 ## Requirements
 

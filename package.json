@@ -4,6 +4,7 @@
   "description": "Shortcuts for Macbook Pro touchbar",
   "publisher": "peszo",
   "version": "0.0.1",
+  "repository": "https://github.com/peszo/itouchbar",
   "engines": {
     "vscode": "^1.107.0"
   },
