@@ -29,4 +29,8 @@ Base version
 
 Added right sidebar toggle
 
+### 0.0.3
+
+Image fix
+
 **Enjoy!**

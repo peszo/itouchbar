@@ -9,6 +9,12 @@ All notable changes to the "iTouchbar" extension will be documented in this file
 - Toggle secondary bar
 - Icon for Marketplace
 
-### Added
+### Changed
 
 - Typos fixed in Readme.md
+
+## [0.0.3] - 2025-12-15
+
+### Changed
+
+- Image fix

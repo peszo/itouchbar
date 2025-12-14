@@ -3,7 +3,7 @@
   "displayName": "iTouchbar",
   "description": "Shortcuts for Macbook Pro touchbar",
   "publisher": "peszo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/peszo/itouchbar",
   "icon": "images/icon.png",
   "engines": {
