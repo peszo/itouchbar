@@ -11,8 +11,9 @@ This extension add a shortcut buttons to macbook pro touchbar in VS Code:
 3. Comment line
 4. Block comment
 5. Outdent lines
+6. Right sidebar toggle
 
-![Touchbar view](https://github.com/peszo/itouchbar/blob/main/images/iTouchbar-2025.png)
+![Touchbar view](images/iTouchbar-2025.png)
 
 ## Requirements
 
@@ -23,5 +24,9 @@ Macbook Pro with touchbar. Additionally need to hide VS Code default shortcuts i
 ### 0.0.1
 
 Base version
+
+### 0.0.2
+
+Added right sidebar toggle
 
 **Enjoy!**
