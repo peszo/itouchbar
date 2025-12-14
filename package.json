@@ -1,0 +1,92 @@
+{
+  "name": "itouchbar",
+  "displayName": "iTouchbar",
+  "description": "Shortcuts for Macbook Pro touchbar",
+  "publisher": "peszo",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+		"macbook pro",
+		"touchbar",
+		"extra buttons",
+		"shortcuts",
+		"macbook",
+		"developers",
+		"touch bar"
+	],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+				"command": "workbench.action.toggleSidebarVisibility",
+				"group": "a@1",
+				"title": "◧"
+			},
+      {
+				"command": "workbench.action.togglePanel",
+				"group": "b@1",
+				"title": ">_"
+			},
+      {
+        "command": "editor.action.commentLine",
+        "group": "c@1", 
+        "title": "//"
+      },
+      {
+        "command": "editor.action.blockComment",
+        "group": "c@2", 
+        "title": "/**/"
+      },
+      {
+				"command": "editor.action.outdentLines",
+        "group": "d@1", 
+				"title": "←☰"
+			}
+    ],
+    "menus": {
+			"touchBar": [
+        {
+					"command": "workbench.action.toggleSidebarVisibility",
+					"group": "a@1"
+				},
+        {
+					"command": "workbench.action.togglePanel",
+					"group": "b@1"
+				},
+				{
+					"command": "editor.action.commentLine",
+					"group": "c@1"
+				},
+        {
+					"command": "editor.action.blockComment",
+					"group": "c@2"
+				},
+        {
+					"command": "editor.action.outdentLines",
+					"group": "d@1" 
+				}
+      ]
+		}
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.107.0",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "18.x",
+    "eslint": "^8.52.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2",
+    "@vscode/test-electron": "^2.3.6"
+  }
+}
